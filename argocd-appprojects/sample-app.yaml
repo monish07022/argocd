@@ -143,6 +143,7 @@ metadata:
     app: reviews
     service: reviews
 spec:
+  type: NodePort
   ports:
   - port: 9080
     name: http
