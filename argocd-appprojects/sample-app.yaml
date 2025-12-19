@@ -143,7 +143,7 @@ metadata:
     app: reviews
     service: reviews
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - port: 9080
     name: http
